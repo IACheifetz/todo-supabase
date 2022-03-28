@@ -19,6 +19,7 @@ Here is the schema for the `todos` table:
 ![](./todos-model.png)
 
 You will be creating a to do list using Supabase. Users should only be able to perform operations on todos associated with their user. You will be using an existing supabase database for this deliverable. Authentication has already been provided for you.
+arbitrary change
 
 ## Acceptance Criteria
 
