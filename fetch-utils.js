@@ -29,6 +29,7 @@ export async function getTodos() {
         .from('todos')
         .select()
         .order('complete')
+        .order('id', { ascending: true })
         .match({ user_id: client.auth.user().id, });
 
     return checkError(response);  
